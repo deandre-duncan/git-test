@@ -40,6 +40,31 @@ a, a:hover {
 
 #carouselButton {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 18;
+  bottom: 2;
   z-index: 100; }
+
+  .site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0; }
+
+#reserveModal .modal-header, #loginModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }
+
+  #reserveModal, #loginModal {
+    .modal-header {
+        background-color: $color-teal: #17A2B8;
+        color: white;
+    }
+}
+
+#loginModal {
+    .modal-header {
+        background-color: $color-mid: #901CAD;
+        color: white;
+    }
